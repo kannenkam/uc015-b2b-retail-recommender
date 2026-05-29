@@ -15,8 +15,8 @@ class B2BRecommenderInference:
         """
         self.models_dir = 'models'
         self.preprocessor_path = os.path.join(self.models_dir, 'preprocessor.pkl')
+        #self.model_path = os.path.join(self.models_dir, 'lightgbm_model.pkl')
         self.model_path = os.path.join(self.models_dir, 'lightgbm_model.pkl')
-
         # Load the production artifacts
         if not os.path.exists(self.preprocessor_path) or not os.path.exists(self.model_path):
             raise FileNotFoundError("🚨 Production model artifacts missing! Please run src/train.py first.")

@@ -1,6 +1,5 @@
+scikit-learn
 pandas
 numpy
-scikit-learn
-lightgbm
+joblib
 gradio
-pytest

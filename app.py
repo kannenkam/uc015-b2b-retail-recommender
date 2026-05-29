@@ -133,4 +133,5 @@ with gr.Blocks(theme=gr.themes.Soft(), title="B2B Demand Optimization Engine") a
 
 if __name__ == '__main__':
     # Launch app locally
-    demo.launch(server_name="127.0.0.1", server_port=7860)
+    # demo.launch(server_name="127.0.0.1", server_port=7860)
+    demo.launch(server_name="0.0.0.0", ssr=False)

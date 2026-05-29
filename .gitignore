@@ -13,8 +13,7 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-models/*
-!models/.gitkeep
+# Allow tracking of model binaries and metadata metrics
 
 # IDE Settings
 .idea/
